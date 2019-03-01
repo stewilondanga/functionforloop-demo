@@ -10,18 +10,18 @@
 <body>
 
   <div class="my_social">
-      <a href="https://www.linkedin.com/in/stewart-ilondanga-336b2743/" class="social">
-          <img src="https://i.imgsafe.org/85/857cb1a42e.png" alt="linkedin"></img>
-        </a>
-      <a href="https://stewilondanga.github.io/" class="social">
-          <img src="https://i.imgsafe.org/8d/8d745a5c82.png" alt="github"></img>
-        </a>
-      <a href="https://twitter.com/stew_ilondanga" class="social">
-          <img src="https://i.imgsafe.org/43/431dd07874.png" alt="twitter"></img>
-        </a>
-    </div>
+    <a href="https://www.linkedin.com/in/stewart-ilondanga-336b2743/" class="social">
+      <img src="https://i.imgsafe.org/85/857cb1a42e.png" alt="linkedin"></img>
+    </a>
+    <a href="https://stewilondanga.github.io/" class="social">
+      <img src="https://i.imgsafe.org/8d/8d745a5c82.png" alt="github"></img>
+    </a>
+    <a href="https://twitter.com/stew_ilondanga" class="social">
+      <img src="https://i.imgsafe.org/43/431dd07874.png" alt="twitter"></img>
+    </a>
+  </div>
 
-    <textarea name="" id="code">
+  <textarea name="" id="code">
     move.left();
     move.down();
     move.right();
@@ -31,50 +31,43 @@
     move.up();
     fill.red();
     </textarea>
-    <canvas width="200" height="200" id="star"></canvas>
-    <div class="btn-group-vertical" style="vertical-align: top;">
-      <button id="start" class="btn btn-default btn-success">Start Script</button>
-      <button id="reset" class="btn btn-default btn-info">Reset</button>
-    </div>
-    <p class="alert alert-success">Task: using the coding area on the top left move the outlined square to the red square and replace the color to black.</p>
+  <canvas width="200" height="200" id="star"></canvas>
+  <div class="btn-group-vertical" style="vertical-align: top;">
+    <button id="start" class="btn btn-default btn-success">Start Script</button>
+    <button id="reset" class="btn btn-default btn-info">Reset</button>
+  </div>
+  <p class="alert alert-success">Task: using the coding area on the top left move the outlined square to the red square and replace the color to black.</p>
 
 
-    <hr>
-    <h1>Functions and loops</h1>
-    <p>Functions and loops are very useful tools when coding. You may combine them any way you like. Put loops inside a function and call functions inside a loop.</p>
-    <h2>Functions</h2>
-    <p>You can combine multiple steps (statements) by grouping them inside a named function.</p>
-    <pre>function northEast() {
+  <hr>
+  <h1>Functions and loops</h1>
+  <p>Functions and loops are very useful tools when coding. You may combine them any way you like. Put loops inside a function and call functions inside a loop.</p>
+  <h2>Functions</h2>
+  <p>You can combine multiple steps (statements) by grouping them inside a named function.</p>
+  <pre>function northEast() {
       move.up();
       move.right();
     }</pre>
-    <p>,then, when you want to run the combined steps, simply call the function: <code>northEast()</code></p>
-    <h2>Loops</h2>
-    <p>For repetative tasks, loops are great. Use the for loop to set how many times you wish to loop. Then add the statement(s) within the {codeblock} that you want to repeat.</p>
-    <p>The syntax for the loop setting is very compact <code>(loop=0; loop < 10; loop++)</code>, but all you need to remember for now is that you can change the number 10 to your own desired loop count.  </p>
-    <pre>
-    for (loop = 0; loop < 10; loop++) {
-      //this would move down 10 times:
-      move.down();
-    }
-    </pre>
+  <p>,then, when you want to run the combined steps, simply call the function: <code>northEast()</code></p>
+  <h2>Loops</h2>
+  <p>For repetative tasks, loops are great. Use the for loop to set how many times you wish to loop. Then add the statement(s) within the {codeblock} that you want to repeat.</p>
+  <p>The syntax for the loop setting is very compact <code>(loop=0; loop < 10; loop++)</code>, but all you need to remember for now is that you can change the number 10 to your own desired loop count. </p> <pre>
+        for (loop = 0; loop < 10; loop++) { //this would move down 10 times: move.down(); } </pre> <section id="contact">
+          <div class="overlay">
+            <div class="containers">
 
+              <h1>
+                <script>
+                  with(new Date) c = -new Date(y = getFullYear(), m = getMonth()).getDay(x = new Date(y, ++m, 0).getDate(b = -1))
+                  h = '<table class="cal"><caption> <em>Stewart ilondanga</em> &#169 ' + ' ' + y + '/' + m + '<tr>' + 'SuMoTuWeThFrSa'.replace(/(..)/g, '<th>$1')
+                  while ((b++ > 5 ? b = 0 : b) | c < x) h += (b ? '' : '<tr>') + '<td>' + (++c < 1 | c > x ? '-' : c);
+                  document.write(h + '</table>')
+                </script>
+              </h1>
 
-  <section id="contact">
-    <div class="overlay">
-      <div class="containers">
-
-        <h1>
-<script>
-with(new Date)c=-new Date(y=getFullYear(),m=getMonth()).getDay(x=new Date(y,++m,0).getDate(b=-1))
-h='<table class="cal"><caption> <em>Stewart ilondanga</em> &#169 '+' '+y+'/'+m+'<tr>'+'SuMoTuWeThFrSa'.replace(/(..)/g,'<th>$1')
-while((b++>5?b=0:b)|c<x)h+=(b?'':'<tr>')+'<td>'+(++c<1|c>x?'-':c);document.write(h+'</table>')
-</script>
-</h1>
-
-      </div>
-    </div>
-  </section>
+            </div>
+          </div>
+          </section>
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
