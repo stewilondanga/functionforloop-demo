@@ -8,7 +8,7 @@ body {
   left: 25px;
 }
 
-/*.my_social a {
+.my_social a {
   display: inline-block;
   height: 2.5em;
 }
@@ -17,7 +17,7 @@ body {
   height: 1.5em;
 }
 
-canvas {
+/*canvas {
   background: url(https://kohlin.net/ruler_bg.png);
   outline:solid 1px black;
 }
