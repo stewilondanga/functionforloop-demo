@@ -77,16 +77,15 @@ var fill = {
   }
 };
 
-/*start.onclick = function(){
-  try{
+start.onclick = function() {
+  try {
     eval(code.value);
-  }
-  catch(e){
-    code.value+='// check your code for errors' + e;
+  } catch (e) {
+    code.value += '// check your code for errors' + e;
   }
 }
 
-reset.onclick = function() {
+/*reset.onclick = function() {
   ctx.clearRect(0,0,cw,ch);
   box.x = cw/2;
   box.y = ch/2;
