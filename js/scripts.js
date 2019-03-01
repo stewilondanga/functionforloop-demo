@@ -14,8 +14,8 @@ var box = {
   x: cw / 2,
   y: ch / 2
 };
-/*var delay = 0;
-var speed = 400;
+var delay = 0;
+/*var speed = 400;
 ctx.fillStyle = 'red';
 ctx.lineWidth = 1;
 ctx.fillRect(10, 10, 10,10); // red box
