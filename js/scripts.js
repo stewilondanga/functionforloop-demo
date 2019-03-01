@@ -15,8 +15,8 @@ var box = {
   y: ch / 2
 };
 var delay = 0;
-/*var speed = 400;
-ctx.fillStyle = 'red';
+var speed = 400;
+/*ctx.fillStyle = 'red';
 ctx.lineWidth = 1;
 ctx.fillRect(10, 10, 10,10); // red box
 ctx.strokeRect(box.x, box.y, 10,10); // player
