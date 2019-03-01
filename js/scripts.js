@@ -56,21 +56,28 @@ var move = {
   },
 
 };
-/*var fill = {
+var fill = {
   black: function() {
     ctx.fillStyle = 'black';
-    setTimeout(function(){ctx.fillRect(box.x, box.y, 10,10);}, delay);
+    setTimeout(function() {
+      ctx.fillRect(box.x, box.y, 10, 10);
+    }, delay);
   },
   red: function() {
     ctx.fillStyle = 'red';
-    setTimeout(function(){ctx.fillRect(box.x, box.y, 10,10);}, delay);
+    setTimeout(function() {
+      ctx.fillRect(box.x, box.y, 10, 10);
+    }, delay);
   },
   white: function() {
     ctx.fillStyle = 'white';
-    setTimeout(function(){ctx.fillRect(box.x, box.y, 10,10);}, delay);
-  } };
+    setTimeout(function() {
+      ctx.fillRect(box.x, box.y, 10, 10);
+    }, delay);
+  }
+};
 
-start.onclick = function(){
+/*start.onclick = function(){
   try{
     eval(code.value);
   }
