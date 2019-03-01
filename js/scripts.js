@@ -94,4 +94,6 @@ reset.onclick = function() {
   ctx.strokeRect(box.x, box.y, 10, 10); // player
 };
 
-/*document.onclick = function(){delay=0};
+document.onclick = function() {
+  delay = 0
+};
