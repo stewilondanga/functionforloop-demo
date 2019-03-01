@@ -85,13 +85,13 @@ start.onclick = function() {
   }
 }
 
-/*reset.onclick = function() {
-  ctx.clearRect(0,0,cw,ch);
-  box.x = cw/2;
-  box.y = ch/2;
+reset.onclick = function() {
+  ctx.clearRect(0, 0, cw, ch);
+  box.x = cw / 2;
+  box.y = ch / 2;
   ctx.fillStyle = 'red';
-  ctx.fillRect(box.x-30, box.y+20, 10,10); // red box
-  ctx.strokeRect(box.x, box.y, 10,10); // player
+  ctx.fillRect(box.x - 30, box.y + 20, 10, 10); // red box
+  ctx.strokeRect(box.x, box.y, 10, 10); // player
 };
 
-document.onclick = function(){delay=0};
+/*document.onclick = function(){delay=0};
