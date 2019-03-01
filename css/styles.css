@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,26 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+body{
+  margin:20px;
+}
+canvas {
+  background: url(https://kohlin.net/ruler_bg.png);
+  outline:solid 1px black;
+}
+textarea, pre, code{
+  font-family:monospace;
+  background:#f5f5f5;
+  padding:2px;
+}
+textarea, canvas{
+  width:200px;
+  height:200px;
+  border:solid 1px black;
+  display:inline-block;
+  margin-left:8px;
 }
 
 .containers {
