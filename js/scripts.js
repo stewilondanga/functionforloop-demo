@@ -6,9 +6,9 @@ var navigate = (function() {
     $('.' + dataName).toggle();
   });
 })();
-/*
+
 var ctx = document.getElementById("star").getContext("2d");
-var cw = 200;
+/*var cw = 200;
 var ch = 200;
 var box = {x:cw/2, y:ch/2};
 var delay = 0;
