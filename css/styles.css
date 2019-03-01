@@ -22,12 +22,13 @@ canvas {
   outline: solid 1px black;
 }
 
-/*textarea, pre, code{
-  font-family:monospace;
-  background:#f5f5f5;
-  padding:2px;
+textarea, pre, code {
+  font-family: monospace;
+  background: #f5f5f5;
+  padding: 2px;
 }
-textarea, canvas{
+
+/*textarea, canvas{
   width:200px;
   height:200px;
   border:solid 1px black;
