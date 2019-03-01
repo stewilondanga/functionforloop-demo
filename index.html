@@ -21,6 +21,45 @@
         </a>
     </div>
 
+    <textarea name="" id="code">
+    move.left();
+    move.down();
+    move.right();
+    move.up();
+    move.up();
+    move.up();
+    move.up();
+    fill.red();
+    </textarea>
+    <canvas width="200" height="200" id="star"></canvas>
+    <div class="btn-group-vertical" style="vertical-align: top;">
+      <button id="start" class="btn btn-default btn-success">Start Script</button>
+      <button id="reset" class="btn btn-default btn-info">Reset</button>
+    </div>
+    <p class="alert alert-success">Task: using the coding area on the top left move the outlined square to the red square and replace the color to black.</p>
+
+
+    <hr>
+    <h1>Functions and loops</h1>
+    <p>Functions and loops are very useful tools when coding. You may combine them any way you like. Put loops inside a function and call functions inside a loop.</p>
+    <h2>Functions</h2>
+    <p>You can combine multiple steps (statements) by grouping them inside a named function.</p>
+    <pre>function northEast() {
+      move.up();
+      move.right();
+    }</pre>
+    <p>,then, when you want to run the combined steps, simply call the function: <code>northEast()</code></p>
+    <h2>Loops</h2>
+    <p>For repetative tasks, loops are great. Use the for loop to set how many times you wish to loop. Then add the statement(s) within the {codeblock} that you want to repeat.</p>
+    <p>The syntax for the loop setting is very compact <code>(loop=0; loop < 10; loop++)</code>, but all you need to remember for now is that you can change the number 10 to your own desired loop count.  </p>
+    <pre>
+    for (loop = 0; loop < 10; loop++) {
+      //this would move down 10 times:
+      move.down();
+    }
+    </pre>
+
+
   <section id="contact">
     <div class="overlay">
       <div class="containers">
